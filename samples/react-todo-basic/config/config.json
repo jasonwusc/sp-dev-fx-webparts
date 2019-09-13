@@ -1,11 +1,18 @@
 {
-  "entries": [
-    {
-      "entry": "./lib/webparts/todo/TodoWebPart.js",
-      "manifest": "./src/webparts/todo/TodoWebPart.manifest.json",
-      "outputPath": "./dist/todo.bundle.js"
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "edc-todo-list-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/edcTodoList/EdcTodoListWebPart.js",
+          "manifest": "./src/webparts/edcTodoList/EdcTodoListWebPart.manifest.json",
+          "outputPath": "./dist/todo.bundle.js"
+        }
+      ]
+
     }
-  ],
+  },
   "externals": {
     "@microsoft/sp-client-base": "node_modules/@microsoft/sp-client-base/dist/sp-client-base.js",
     "@microsoft/sp-client-preview": "node_modules/@microsoft/sp-client-preview/dist/sp-client-preview.js",
@@ -16,6 +23,6 @@
     "react-dom/server": "node_modules/react-dom/dist/react-dom-server.min.js"
   },
   "localizedResources": {
-    "todoStrings": "webparts/todo/loc/{locale}.js"
+    "edcTodoListWebPartStrings": "lib/webparts/edcTodoList/loc/{locale}.js"
   }
 }
