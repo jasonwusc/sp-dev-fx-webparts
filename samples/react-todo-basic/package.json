@@ -12,7 +12,8 @@
     "office-ui-fabric-react": "0.50.0",
     "react": "0.14.8",
     "react-dom": "0.14.8",
-    "react-addons-update": "0.14.8"
+    "react-addons-update": "0.14.8",
+    "@types/webpack-env": "1.13.1"
   },
   "devDependencies": {
     "@microsoft/sp-build-web": "~0.7.0",

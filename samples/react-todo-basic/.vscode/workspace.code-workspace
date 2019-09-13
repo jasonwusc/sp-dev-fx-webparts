@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "C:\\Users\\JasonW\\Source\\Repos\\sp-dev-fx-webparts\\samples\\react-todo-basic"
+		}
+	],
+	"settings": {
+		"typescript.tsdk": "./node_modules/typescript/lib"
+	}
+}
